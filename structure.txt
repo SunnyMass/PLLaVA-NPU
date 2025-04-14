@@ -1,0 +1,76 @@
+.
+├── 1-2.mp4
+├── assert
+│   ├── data.png
+│   ├── gradio.png
+│   ├── logo.png
+│   ├── module.png
+│   ├── performance.png
+│   ├── teaser.jpg
+│   └── zeroshot.png
+├── conda_env_export.txt
+├── DATA.md
+├── dataset
+│   ├── base_dataset.py
+│   ├── __init__.py
+│   ├── it_dataset.py
+│   ├── utils.py
+│   └── video_utils.py
+├── docs
+│   └── PoolLLaVA_Report.pdf
+├── example
+│   ├── 1917.mov
+│   ├── 1917.mp4
+│   ├── bear.jpg
+│   ├── cooking.mp4
+│   ├── dog.png
+│   ├── jesse_dance.mp4
+│   ├── working.mp4
+│   └── yoga.mp4
+├── fusion_result.json
+├── models
+│   ├── __init__.py
+│   ├── pllava
+│   └── __pycache__
+├── python_scripts
+│   └── hf.py
+├── README.md
+├── requirements.no_torch.txt
+├── requirements.torch.txt
+├── requirements.txt
+├── run_demo.py
+├── scripts
+│   ├── accel_config_deepspeed_zero2.yaml
+│   ├── accel_config_deepspeed_zero3_offload_multinode_1.yaml
+│   ├── accel_config_deepspeed_zero3_offload_multinode_2.yaml
+│   ├── accel_config_deepspeed_zero3_offload_multinode.yaml
+│   ├── accel_config_deepspeed_zero3_offload_singlegpu.yaml
+│   ├── accel_config_deepspeed_zero3_offload.yaml
+│   ├── accel_config_multigpu.yaml
+│   ├── accel_config_multinode.yaml
+│   ├── accel_config_singlegpu.yaml
+│   ├── demo.sh
+│   ├── eval.sh
+│   ├── eval_yiprompt.sh
+│   ├── gallery.sh
+│   ├── train_pllava_13b.sh
+│   ├── train_pllava_34b.sh
+│   ├── train_pllava_7b.sh
+│   └── train_pllava.sh
+├── structure.txt
+├── tasks
+│   ├── eval
+│   ├── shared_utils.py
+│   └── train
+└── utils
+    ├── basic_utils.py
+    ├── config.py
+    ├── config_utils.py
+    ├── distributed.py
+    ├── easydict.py
+    ├── logger.py
+    ├── optimizer.py
+    ├── __pycache__
+    └── scheduler.py
+
+15 directories, 59 files
