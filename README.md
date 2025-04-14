@@ -31,7 +31,7 @@ Peking University, Pengcheng Laboratory
 ### 实验结果
 **测试视频输入：**
 
-[点击查看视频](1-2.mp4)
+![测试视频](./1-2.mp4)
 
 **运行命令：**
 ```
