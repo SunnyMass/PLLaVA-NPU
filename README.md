@@ -10,7 +10,7 @@ Peking University, Pengcheng Laboratory
 
 <!-- [![Paper](https://img.shields.io/badge/cs.CV-2311.17005-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2311.17005) -->
 
-**Project Page: [PLLaVA-NPU](https://pllava.github.io/)**
+**Project Page: [PLLaVA-NPU](https://github.com/SunnyMass/PLLaVA-NPU.git)**
 
 
 
