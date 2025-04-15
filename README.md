@@ -98,12 +98,6 @@ def adaptive_avg_pool3d_manual(self, x, output_size):
 ```
 
 ### 运行脚本
-首先配置conda环境：
-```
-conda create -n pllava python=3.10
-conda activate pllava
-pip install -r requirement.txt
-```
 ```
 import torch
 import time
@@ -212,7 +206,13 @@ if __name__ == '__main__':
 ```
 
 ### 环境配置
-当前conda环境配置保存在conda_env_export.txt文件中。
+配置conda环境并安装库：
+```
+conda create -n pllava python=3.10
+conda activate pllava
+pip install -r requirement.txt
+```
+详细的conda环境配置保存在conda_env_export.txt文件中。
 ```
 name: caption
 channels:
