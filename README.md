@@ -98,6 +98,12 @@ def adaptive_avg_pool3d_manual(self, x, output_size):
 ```
 
 ### 运行脚本
+首先配置conda环境：
+```
+conda create -n pllava python=3.10
+conda activate pllava
+pip install -r requirement.txt
+```
 ```
 import torch
 import time
