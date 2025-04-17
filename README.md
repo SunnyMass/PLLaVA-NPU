@@ -2,9 +2,9 @@
 
 <h2><a href="https://pllava.github.io/">PLLaVA-NPU: Adapt PLLaVA program to run on NPU</a></h2>
 
-Tiange Zhang, Rongqun Lin, Chuanmin Jia, Siwei Ma
+Tiange Zhang, Rongqun Lin, Jing Shi, Chuanmin Jia, Siwei Ma
 
-Peking University, Pengcheng Laboratory
+Peking University, Huawei, Pengcheng Laboratory
 
 </div>
 
@@ -37,11 +37,11 @@ Peking University, Pengcheng Laboratory
 ```
 python run_demo.py   --video_path path_to_1-2.mp4   --prompt "describe this video in detail"   --pretrained_model_name_or_path path_to_pllava7b   --weight_dir path_to_pllava7b   --use_lora   --num_frames 16   --conv_mode plain   --max_new_tokens 128  --video_caption(如果是做视频caption任务就加上，如果是其他视频理解任务就不加)
 ```
-如果需要部署gradio
+如果希望模型可以交互演示，可以采用gradio。用户修改scripts/demo.sh中的model_dir和weight_dir，再运行demo.sh，部署gradio。
 ```
 sh ./scripts/demo.sh
 ```
-可以在PLLaVA/tasks/eval/demo/pllava_demo.py文件末尾定义url地址。
+如果用户希望修改url地址，用户可以在PLLaVA/tasks/eval/demo/pllava_demo.py文件末尾定义url地址，具体修改内容如下。
 ```
 demo.launch(
     server_name="0.0.0.0",
